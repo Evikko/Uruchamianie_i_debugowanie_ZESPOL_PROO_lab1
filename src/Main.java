@@ -1,7 +1,7 @@
 class Team {
-    private String name;    //nazwa zespołu
-    public final String[] members;  //członkowie
-    public Team() { //konstruktor bezparametrowy
+    private String name;             //nazwa zespołu
+    public final String[] members;       //członkowie
+    public Team() {           //konstruktor bezparametrowy
         name = "Zwierzeta";
         members = new String[] {"Kot", "Pies", "Owca"};
     }
@@ -14,7 +14,7 @@ class Team {
 }
 class Main {
     public static void main(String[] args) {
-        Team zespol = new Team();       // tworzymy obiekt
+        Team zespol = new Team();            // tworzymy obiekt
 
         String tablica[] = zespol.members;
 //        zespol.members[0] = "Żaba";
